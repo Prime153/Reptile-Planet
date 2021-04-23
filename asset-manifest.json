@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Reptile-Planet/static/js/main.98af885e.chunk.js",
-    "main.js.map": "/Reptile-Planet/static/js/main.98af885e.chunk.js.map",
+    "main.js": "/Reptile-Planet/static/js/main.bf3afdc3.chunk.js",
+    "main.js.map": "/Reptile-Planet/static/js/main.bf3afdc3.chunk.js.map",
     "runtime-main.js": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js",
     "runtime-main.js.map": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/Reptile-Planet/static/css/2.b57b7cfd.chunk.css",
@@ -52,14 +52,14 @@
     "static/media/insularis.80a46f83.jpg": "/Reptile-Planet/static/media/insularis.80a46f83.jpg",
     "static/media/irminia.25fe26f1.jpg": "/Reptile-Planet/static/media/irminia.25fe26f1.jpg",
     "static/media/leachianus.fb2c1678.jpg": "/Reptile-Planet/static/media/leachianus.fb2c1678.jpg",
-    "static/media/leaf2.d9d747fe.png": "/Reptile-Planet/static/media/leaf2.d9d747fe.png",
-    "static/media/leaf3.7f0a6673.png": "/Reptile-Planet/static/media/leaf3.7f0a6673.png",
+    "static/media/leaf.d9d747fe.png": "/Reptile-Planet/static/media/leaf.d9d747fe.png",
+    "static/media/leaf2.7f0a6673.png": "/Reptile-Planet/static/media/leaf2.7f0a6673.png",
     "static/media/liane.f82e1854.jpg": "/Reptile-Planet/static/media/liane.f82e1854.jpg",
     "static/media/liocheles.484316f9.jpg": "/Reptile-Planet/static/media/liocheles.484316f9.jpg",
     "static/media/lizards.21214dcd.jpg": "/Reptile-Planet/static/media/lizards.21214dcd.jpg",
     "static/media/macularius.c4d09b96.jpg": "/Reptile-Planet/static/media/macularius.c4d09b96.jpg",
     "static/media/multivitamin.a9b42146.jpg": "/Reptile-Planet/static/media/multivitamin.a9b42146.jpg",
-    "static/media/newsGecko2.7937bd7f.png": "/Reptile-Planet/static/media/newsGecko2.7937bd7f.png",
+    "static/media/newsGecko.7937bd7f.png": "/Reptile-Planet/static/media/newsGecko.7937bd7f.png",
     "static/media/nigrita.6515cceb.jpg": "/Reptile-Planet/static/media/nigrita.6515cceb.jpg",
     "static/media/omanosaura.d75e0f45.jpg": "/Reptile-Planet/static/media/omanosaura.d75e0f45.jpg",
     "static/media/petersii.f4e12d0d.jpg": "/Reptile-Planet/static/media/petersii.f4e12d0d.jpg",
@@ -86,6 +86,6 @@
     "static/js/runtime-main.5526a1c5.js",
     "static/css/2.b57b7cfd.chunk.css",
     "static/js/2.2075a5ba.chunk.js",
-    "static/js/main.98af885e.chunk.js"
+    "static/js/main.bf3afdc3.chunk.js"
   ]
 }
