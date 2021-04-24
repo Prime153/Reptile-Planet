@@ -3,6 +3,8 @@ import UserPageTemplate from 'Templates/UserPageTemplate';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import BasketCard from 'Components/Molecules/BasketCard/BasketCard';
+import WeatherWrapper from 'Components/Molecules/WeatherWrapper/WeatherWrapper';
+import Form from 'Components/Molecules/Form/Form';
 
 import {
   Container,
@@ -12,6 +14,7 @@ import {
   EmptyCartContainer,
   BasketCase,
   TotalContainer,
+  FinishOrderContainer,
 } from './BasketStyled';
 
 const Basket = ({ basket, total }) => (
@@ -44,11 +47,14 @@ const Basket = ({ basket, total }) => (
         <TotalContainer>
           <div> Grand Total:</div>
           <div>
-            {' '}
             {Math.round(total)}.00 PLN
             <span>+ Shipping Cost 20 PLN</span>
           </div>
         </TotalContainer>
+        <FinishOrderContainer>
+          <WeatherWrapper />
+          <Form />
+        </FinishOrderContainer>
       </Container>
     )}
   </UserPageTemplate>

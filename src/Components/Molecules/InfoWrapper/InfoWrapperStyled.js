@@ -20,11 +20,6 @@ export const TextContainer = styled.div`
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   font-size: ${({ theme }) => theme.fontSize.s};
   font-weight: 500;
-  transition: 0.2s;
-
-  :hover {
-    transform: scale(1.03);
-  }
 
   @media screen and (max-width: 1100px) {
     font-size: ${({ theme }) => theme.fontSize.xs};

@@ -7,7 +7,7 @@ import Accessories from 'assets/CategoryImages/accessories.jpg';
 
 const Container = styled.div`
   width: auto;
-  min-height: 70vh;
+  min-height: 71.1vh;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

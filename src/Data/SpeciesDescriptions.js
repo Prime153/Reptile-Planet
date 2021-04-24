@@ -334,4 +334,22 @@ export const description = {
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet elit rhoncus auctor finibus. Morbi rhoncus sit amet metus id imperdiet. Morbi quis consequat neque.',
   },
+
+  // Articles
+  Rybnik: {
+    description:
+      'We will have our own table in Rybnik. You can book orders before the event with a 10% discount for each order. From snakes and lizards to tarantulas and accessories. Ready-made terrariums will also be on offer! We are waiting for you',
+  },
+  Scorpions: {
+    description:
+      'New research by scientists in Japan shows the existence of a third compound commonly present in the cuticle of scorpions. Its presence was first discovered in the species Liocheles australasiae, but it was quickly confirmed that it also occurs in other species such as: Isometrus maculatus, Scorpio maurus palmatus, Buthacus leptocheles, and Androctonus amoreuxi',
+  },
+  Germany: {
+    description:
+      'The act passed introduces a ban on the breeding of poisonous animals in the entire federal state of NRW. The ban covers private individuals and people selling these animals (with few exceptions). Persons who were in possession of such animals prior to the entry into force of the regulations prohibiting the breeding of particular species will have the choice of keeping such specimens, selling them abroad to places where breeding of these species is permitted or they will be able to keep them',
+  },
+  Florida: {
+    description:
+      'Florida officials are debating a ban on the farming of green iguanas (Iguana iguana) and the Salvator and Tupinambis teu. Many Florida terrarists expected such a ban. Both iguanas and teju are invasive and the number of individuals that have become established in Florida is increasing',
+  },
 };

@@ -51,6 +51,12 @@ import Hideouts from 'assets/Accessories/hideouts.jpg';
 import Terrarium90 from 'assets/Accessories/terrarium90.jpg';
 import Multivitamin from 'assets/Accessories/multivitamin.jpg';
 
+// articles
+import Scorpion from 'assets/articles/scorpion.jpg';
+import Insularis from 'assets/articles/insularis.jpg';
+import Iguana from 'assets/articles/iguana.jpg';
+import Terra from 'assets/articles/terra.jpg';
+
 import { description } from './SpeciesDescriptions';
 
 export const lizards = [
@@ -745,5 +751,43 @@ export const accessories = [
     count: 1,
     order: 'shop',
     category: 'accessories',
+  },
+];
+
+export const articles = [
+  {
+    id: 1,
+    image: Terra,
+    date: 'April 22  2021',
+    side: false,
+    heading: 'Visit our stand at the Rybnik Terrarium!',
+    text: description.Rybnik.description,
+  },
+  {
+    id: 2,
+    image: Scorpion,
+    date: 'June 11 2020',
+    side: true,
+    heading:
+      'A third compound was found responsible for fluorescence in scorpions',
+    text: description.Scorpions.description,
+  },
+  {
+    id: 3,
+    image: Insularis,
+    date: 'April 10 2020',
+    side: false,
+    heading: 'Germany NRW - Breeding ban on poisonous animals voted',
+    text: description.Germany.description,
+  },
+
+  {
+    id: 4,
+    image: Iguana,
+    date: 'February 20 2020',
+    side: true,
+    heading:
+      'Florida wants to ban the breeding of green iguanas and teju',
+    text: description.Florida.description,
   },
 ];

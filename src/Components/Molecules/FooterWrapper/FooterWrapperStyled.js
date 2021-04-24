@@ -49,8 +49,8 @@ export const LowerPhoneNumberText = styled.div`
 `;
 
 export const LogoContainer = styled.div`
-  flex-basis: 25%;
-  padding: 20px;
+  flex-basis: 24%;
+  padding: 4rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;

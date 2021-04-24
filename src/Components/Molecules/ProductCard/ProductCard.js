@@ -40,12 +40,12 @@ const ProductCard = ({
   return home ? (
     <BoxContainer home as={Link} to={handleLocation}>
       <BoxImage home src={image} alt={species} />
-      <BoxSpeciesContainer>
+      <BoxSpeciesContainer home>
         <BoxSpecies home>{species}</BoxSpecies>
         <BoxText home>
           {name} {birth}
         </BoxText>
-        <BoxText>{price} PLN</BoxText>
+        <BoxText home>{price} PLN</BoxText>
       </BoxSpeciesContainer>
     </BoxContainer>
   ) : (
@@ -90,7 +90,7 @@ ProductCard.propTypes = {
   birth: PropTypes.string,
   price: PropTypes.number.isRequired,
   category: PropTypes.string,
-  home: PropTypes,
+  home: PropTypes.bool,
   boxView: PropTypes.bool.isRequired,
 };
 

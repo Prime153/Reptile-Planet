@@ -14,16 +14,18 @@ import store from 'Store/index';
 import DetailsPage from 'Pages/DetailsPage';
 import Basket from 'Pages/Basket/Basket';
 import ScrollToTop from 'Services/ScrollIntoView';
+import News from 'Pages/News/News';
+import Contact from 'Pages/Contact/Contact';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
 
 const Root = () => (
   <Provider store={store}>
-    <Router>
+    <Router basename="/">
       <ScrollToTop>
         <MainTemplate>
           <Switch>
@@ -87,6 +89,8 @@ const Root = () => (
               component={DetailsPage}
             />
             <Route path="/basket" component={Basket} />
+            <Route path="/news" component={News} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </MainTemplate>
       </ScrollToTop>

@@ -5,6 +5,7 @@ import {
   tarantulas,
   scorpions,
   accessories,
+  articles,
 } from 'Data/Species';
 
 const initialState = {
@@ -13,10 +14,13 @@ const initialState = {
   tarantulas: [...tarantulas],
   scorpions: [...scorpions],
   accessories: [...accessories],
+  articles: [...articles],
   basket: [],
   offer: [],
+  cityLocation: [],
   total: 0,
   boxView: true,
+  error: false,
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -151,7 +155,7 @@ const rootReducer = (state = initialState, action) => {
       const random = [];
 
       // eslint-disable-next-line no-plusplus
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 6; i++) {
         const min = 1;
         const max = 44;
         const draw = min + Math.floor(Math.random() * (max - min));
@@ -170,6 +174,25 @@ const rootReducer = (state = initialState, action) => {
         offer: addToOffer,
       };
     }
+    case 'GET_WEATHER':
+      return {
+        ...state,
+        error: false,
+        cityLocation: [action.payload.data],
+      };
+    case 'GET_ERROR':
+      return {
+        ...state,
+        error: true,
+      };
+
+    case 'CLEAR_BASKET':
+      return {
+        ...state,
+        basket: [],
+        total: 0,
+        cityLocation: [],
+      };
 
     default:
       return state;

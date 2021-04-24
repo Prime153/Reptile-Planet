@@ -20,7 +20,7 @@ export const LinkContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-basis: 40%;
+  flex-basis: 50%;
 `;
 
 export const Link = styled.button`

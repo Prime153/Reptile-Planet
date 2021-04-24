@@ -4,7 +4,7 @@ export const Container = styled.div`
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   margin: 3rem 40rem;
   width: 60vw;
-  height: 250px;
+
   display: flex;
   flex-flow: row nowrap;
   color: ${({ theme }) => theme.darkGreen};
@@ -23,20 +23,14 @@ export const Container = styled.div`
     width: 50vw;
   }
 
-  @media screen and (max-width: 1300px) {
-    height: 190px;
-  }
-  @media screen and (max-width: 900px) {
-    height: 150px;
-  }
-
   @media screen and (max-width: 774px) {
-    height: 130px;
     width: 70vw;
   }
   @media screen and (max-width: 594px) {
-    height: 100px;
     width: 90vw;
+  }
+  @media screen and (max-width: 400px) {
+    height: 120px;
   }
 `;
 
@@ -44,19 +38,8 @@ export const Image = styled.img`
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   width: 20vw;
-  height: 250px;
 
-  @media screen and (max-width: 1300px) {
-    height: 190px;
-  }
-  @media screen and (max-width: 900px) {
-    height: 150px;
-  }
-  @media screen and (max-width: 774px) {
-    height: 130px;
-  }
   @media screen and (max-width: 594px) {
-    height: 100px;
     width: 30vw;
   }
 `;
@@ -84,6 +67,7 @@ export const SpeciesContainer = styled.div`
 
 export const Species = styled.span`
   font-size: 4rem;
+  padding-bottom: 0.5rem;
 
   @media screen and (max-width: 1300px) {
     font-size: ${({ theme }) => theme.fontSize.l};
@@ -115,11 +99,11 @@ export const Text = styled.span`
 export const BoxContainer = styled.div`
   text-decoration: none;
   flex-flow: column nowrap;
-  width: 20vw;
+  width: 350px;
   height: 500px;
   display: flex;
   text-align: center;
-  margin: 5rem;
+  margin: 3rem;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px;
   color: ${({ theme }) => theme.darkGreen};
   transition: 0.2s;
@@ -128,7 +112,7 @@ export const BoxContainer = styled.div`
   ${({ home }) =>
     home &&
     css`
-      margin: 1rem;
+      margin: 2rem;
       width: 260px;
       height: 400px;
     `}
@@ -137,10 +121,6 @@ export const BoxContainer = styled.div`
     transform: scale(1.03);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
-  }
-
-  @media screen and (min-width: 2000px) {
-    width: 320px;
   }
 
   @media screen and (max-width: 910px) {
@@ -156,34 +136,37 @@ export const BoxContainer = styled.div`
 export const BoxImage = styled(Image)`
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   width: 100%;
-  height: 200px;
+  height: auto;
   border-radius: 0;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-
-  @media screen and (max-width: 420px) {
-    height: 160px;
-  }
 `;
 
 export const BoxSpeciesContainer = styled(SpeciesContainer)`
   display: grid;
-  grid-template-rows: 0.2fr 0.2fr 1fr;
+  grid-template-rows: 0.1fr 0.2fr 1fr;
   align-items: end;
+
+  ${({ home }) =>
+    home &&
+    css`
+      grid-template-rows: 0.1fr 0.2fr 0.1fr;
+    `}
 `;
 
 export const BoxSpecies = styled.span`
+  padding-bottom: 1rem;
   font-size: ${({ theme }) => theme.fontSize.l};
 
   ${({ home }) =>
     home &&
     css`
-      width: 100%;
+      padding-bottom: 1rem;
       font-size: ${({ theme }) => theme.fontSize.s};
     `}
 
   @media screen and (max-width: 420px) {
-    font-size: ${({ theme }) => theme.fontSize.s};
+    font-size: ${({ theme }) => theme.fontSize.xs};
   }
 `;
 
@@ -194,6 +177,7 @@ export const BoxText = styled.span`
     home &&
     css`
       width: 100%;
+
       font-size: ${({ theme }) => theme.fontSize.xs};
     `}
 

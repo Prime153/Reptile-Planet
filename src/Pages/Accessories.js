@@ -18,6 +18,7 @@ const Accessories = ({ accessories }) => (
           order={elem.order}
           name={elem.name}
           category={elem.category}
+          home={false}
         />
       ))}
     </ProductsTemplate>

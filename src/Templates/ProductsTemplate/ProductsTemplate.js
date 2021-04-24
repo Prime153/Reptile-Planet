@@ -1,8 +1,9 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useStateIfMounted } from 'use-state-if-mounted';
 import PropTypes from 'prop-types';
 import { useDispatch, connect } from 'react-redux';
+import { HashLink } from 'react-router-hash-link';
+
 import {
   changeBox as changeBoxAction,
   sortLowHigh as sortLowHighAction,
@@ -19,14 +20,34 @@ import {
   ProductsContainer,
   LineButton,
   BoxButton,
+  ScrollContainer,
+  CartStyled,
+  ArrowStyled,
+  BasketCircle,
+  HashLinkStyled,
 } from './ProductsTemplateStyled';
 
-const ProductsTemplate = ({ productsType, children, boxView }) => {
+const ProductsTemplate = ({
+  productsType,
+  children,
+  boxView,
+  basket,
+}) => {
   const dispatch = useDispatch();
   const changeBox = (change) => dispatch(changeBoxAction(change));
   const sortLowHigh = (type) => dispatch(sortLowHighAction(type));
   const sortHighLow = (type) => dispatch(sortHighLowAction(type));
   const position = (type) => dispatch(positionAction(type));
+  const [handleScroll, changeScroll] = useStateIfMounted(false);
+
+  useEffect(() => {
+    const WindowScroll = () =>
+      window.scrollY >= 500
+        ? changeScroll(true)
+        : changeScroll(false);
+
+    window.addEventListener('scroll', WindowScroll);
+  });
 
   const change = (e) => {
     if (e.target.value === 'position') {
@@ -64,6 +85,20 @@ const ProductsTemplate = ({ productsType, children, boxView }) => {
           />
         </div>
       </SortingContainer>
+      <ScrollContainer appear={handleScroll}>
+        <HashLinkStyled to="/basket">
+          <button type="button">
+            <CartStyled />
+          </button>
+          <BasketCircle>{basket.length}</BasketCircle>
+        </HashLinkStyled>
+
+        <HashLink smooth to="#">
+          <button type="button">
+            <ArrowStyled />
+          </button>
+        </HashLink>
+      </ScrollContainer>
       <ProductsContainer box={boxView}>{children}</ProductsContainer>
     </Container>
   );
@@ -73,7 +108,11 @@ ProductsTemplate.propTypes = {
   productsType: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
   boxView: PropTypes.bool.isRequired,
+  basket: PropTypes.instanceOf(Array).isRequired,
 };
 
-const mapStateToProps = ({ boxView }) => ({ boxView });
+const mapStateToProps = ({ boxView, basket }) => ({
+  boxView,
+  basket,
+});
 export default connect(mapStateToProps)(ProductsTemplate);

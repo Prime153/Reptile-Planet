@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  width: 70%;
   height: 370px;
+  width: 60%;
   background-color: ${({ theme }) => theme.green};
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   font-weight: 500;
@@ -12,10 +12,6 @@ export const Container = styled.div`
   align-items: center;
   border-radius: 30px;
   margin: 50px auto;
-
-  @media screen and (min-width: 2000px) {
-    width: 60%;
-  }
 
   @media screen and (max-width: 1000px) {
     text-align: center;
@@ -61,17 +57,22 @@ export const Image = styled.div`
     second &&
     css`
       flex-basis: 25%;
+      border-radius: 0px;
 
       :first-child {
         max-width: 920px
-        border-radius: 0;
+        border-radius: 0px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
        
       }
       :nth-child(3) {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
         @media screen and (max-width: 920px) {
         display:none;
+       
         
      }
       }

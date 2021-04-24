@@ -24,9 +24,8 @@ export const Container = styled.button`
   ${({ order }) =>
     order &&
     css`
-      padding: 24px;
-      width: 320px;
-      height: 75px;
+      width: 220px;
+      height: 60px;
       border-radius: 30px;
     `}
 `;

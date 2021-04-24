@@ -22,6 +22,7 @@ const OfferHomeWrapper = ({ offer }) => (
           price={elem.price}
           order={elem.order}
           category={elem.category}
+          //  Received `true` for a non-boolean attribute `home` error due to React router. Can't find the solution
           home
         />
       ))}

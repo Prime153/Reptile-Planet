@@ -33,7 +33,7 @@ const DetailsTemplate = ({
   housing,
   category,
 }) => {
-  const [careDescription, changeCareDescription] = useState({
+  const [handlecareDescription, changeCareDescription] = useState({
     des1: true,
     des2: false,
     des3: false,
@@ -65,7 +65,7 @@ const DetailsTemplate = ({
         <SpecificationContainer>
           <CareHeadingsContainer>
             <CareHeadings
-              active={careDescription.des1}
+              active={handlecareDescription.des1}
               type="button"
               onClick={() =>
                 changeCareDescription(() => ({
@@ -78,7 +78,7 @@ const DetailsTemplate = ({
             {category !== 'accessories' && (
               <>
                 <CareHeadings
-                  active={careDescription.des2}
+                  active={handlecareDescription.des2}
                   onClick={() =>
                     changeCareDescription(() => ({
                       des2: true,
@@ -88,7 +88,7 @@ const DetailsTemplate = ({
                   Feeding and Supplementation
                 </CareHeadings>
                 <CareHeadings
-                  active={careDescription.des3}
+                  active={handlecareDescription.des3}
                   onClick={() =>
                     changeCareDescription(() => ({
                       des3: true,
@@ -101,13 +101,13 @@ const DetailsTemplate = ({
             )}
           </CareHeadingsContainer>
           <DescriptionsContainer>
-            {careDescription.des1 && (
+            {handlecareDescription.des1 && (
               <>
                 <span>{description}</span>
               </>
             )}
-            {careDescription.des2 && feedingAndSupplementation}
-            {careDescription.des3 && housing}
+            {handlecareDescription.des2 && feedingAndSupplementation}
+            {handlecareDescription.des3 && housing}
           </DescriptionsContainer>
         </SpecificationContainer>
       </Container>
@@ -118,8 +118,8 @@ const DetailsTemplate = ({
 DetailsTemplate.propTypes = {
   id: PropTypes.number.isRequired,
   category: PropTypes.string.isRequired,
-  species: PropTypes.string,
-  name: PropTypes.string.isRequired,
+  species: PropTypes.string.isRequired,
+  name: PropTypes.string,
   birth: PropTypes.string,
   price: PropTypes.number.isRequired,
   picture: PropTypes.string.isRequired,
@@ -131,7 +131,7 @@ DetailsTemplate.propTypes = {
 };
 
 DetailsTemplate.defaultProps = {
-  species: null,
+  name: null,
   birth: null,
   available: null,
   feedingAndSupplementation: null,

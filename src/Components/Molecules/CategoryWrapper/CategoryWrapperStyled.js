@@ -12,6 +12,16 @@ export const Container = styled.div`
   background: ${({ image }) => `url(${image})`};
   background-repeat: no-repeat;
   background-position: center;
+  animation: fadein 1s;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
   @media screen and (max-width: 684px) {
     flex: 0 0 80%;

@@ -4,7 +4,6 @@ import { BiMinus as Minus, BiPlus as Plus } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  border-bottom: 2px solid #c4c4c4;
   height: 160px;
   width: 80%;
   display: grid;

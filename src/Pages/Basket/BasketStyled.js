@@ -43,7 +43,7 @@ export const CardsContainer = styled.div`
 `;
 
 export const EmptyCartContainer = styled.div`
-  height: 40vh;
+  height: 36.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,4 +83,14 @@ export const TotalContainer = styled.div`
       }
     }
   }
+`;
+
+export const FinishOrderContainer = styled.div`
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
 `;

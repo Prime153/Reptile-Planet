@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 70vh;
+  height: 71.1vh;
   width: 100%;
 `;
 
 export const Image = styled.div`
   padding: 0 10px;
   width: 100%;
-  height: 70vh;
+  height: 71.1vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;

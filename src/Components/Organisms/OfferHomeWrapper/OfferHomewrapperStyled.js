@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-flow: row wrap;
   }
 `;
