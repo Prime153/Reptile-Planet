@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Field } from 'formik';
 import Leaf from 'assets/leaf.png';
 import Leaf2 from 'assets/leaf2.png';
+import Heading from 'Components/Atoms/Heading';
 
 export const Container = styled.div`
   width: 100%;
@@ -12,7 +13,6 @@ export const Container = styled.div`
   align-items: center;
   padding: 2rem 5rem;
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
-  font-size: ${({ theme }) => theme.fontSize.xs};
   background-color: ${({ theme }) => theme.green};
   background-image: url(${Leaf2}), url(${Leaf});
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ export const Container = styled.div`
 export const StyledInput = styled(Field)`
   padding: 1rem;
   width: 100%;
-  font-size: ${({ theme }) => theme.fontSize.s};
+  font-size: ${({ theme }) => theme.fontSize.xs};
 
   @media screen and (max-width: 690px) {
     font-size: ${({ theme }) => theme.fontSize.xxs};
@@ -45,7 +45,7 @@ export const StyledButton = styled.button`
   font-size: ${({ theme }) => theme.fontSize.xs};
   border: none;
   width: 40%;
-  height: 52px;
+  height: 44px;
   background-color: ${({ theme }) => theme.darkGreen};
   color: white;
   cursor: pointer;
@@ -65,4 +65,9 @@ export const StyledButton = styled.button`
 
 export const ErrorText = styled.span`
   color: red;
+  font-size: ${({ theme }) => theme.fontSize.xxs};
+`;
+
+export const StyledHeading = styled(Heading)`
+  font-size: ${({ theme }) => theme.fontSize.l};
 `;

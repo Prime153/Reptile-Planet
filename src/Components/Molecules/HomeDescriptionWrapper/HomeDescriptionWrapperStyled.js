@@ -17,9 +17,6 @@ export const Container = styled.div`
     text-align: center;
   }
 
-  @media screen and (max-width: 1156px) {
-    font-size: ${({ theme }) => theme.fontSize.xs};
-  }
   @media screen and (max-width: 740px) {
     width: 80%;
     font-size: ${({ theme }) => theme.fontSize.xxs};

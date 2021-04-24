@@ -1,5 +1,4 @@
 import React from 'react';
-import Heading from 'Components/Atoms/Heading';
 import { Formik } from 'formik';
 import * as yup from 'yup';
 import {
@@ -7,6 +6,7 @@ import {
   StyledInput,
   StyledButton,
   ErrorText,
+  StyledHeading,
 } from './NewsletterWrapperStyled';
 
 const NewsletterWrapper = () => {
@@ -16,7 +16,7 @@ const NewsletterWrapper = () => {
 
   return (
     <Container>
-      <Heading>Sign up for our newsletter!</Heading>
+      <StyledHeading>Sign up for our newsletter!</StyledHeading>
       <Formik
         onSubmit={(values, { resetForm }) => {
           resetForm();
