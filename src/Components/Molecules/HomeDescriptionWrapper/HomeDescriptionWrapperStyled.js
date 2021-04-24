@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  height: 370px;
+  height: 280px;
   width: 60%;
   background-color: ${({ theme }) => theme.green};
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   font-weight: 500;
-  font-size: ${({ theme }) => theme.fontSize.s};
+  font-size: ${({ theme }) => theme.fontSize.xs};
   color: white;
   display: flex;
   align-items: center;
