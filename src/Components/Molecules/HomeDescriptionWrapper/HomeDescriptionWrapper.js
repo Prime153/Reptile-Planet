@@ -29,7 +29,7 @@ const HomeDescriptionWrapper = ({ second }) => (
     ) : (
       <>
         <ContentContainer>
-          <Heading>Visit our store</Heading>
+          <Heading>Visit Us</Heading>
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna
