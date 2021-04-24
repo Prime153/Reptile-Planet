@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Reptile-Planet/static/js/main.bf3afdc3.chunk.js",
-    "main.js.map": "/Reptile-Planet/static/js/main.bf3afdc3.chunk.js.map",
+    "main.js": "/Reptile-Planet/static/js/main.d520d360.chunk.js",
+    "main.js.map": "/Reptile-Planet/static/js/main.d520d360.chunk.js.map",
     "runtime-main.js": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js",
     "runtime-main.js.map": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/Reptile-Planet/static/css/2.b57b7cfd.chunk.css",
@@ -74,6 +74,7 @@
     "static/media/spilota.9ff47da2.jpg": "/Reptile-Planet/static/media/spilota.9ff47da2.jpg",
     "static/media/tarantulas.d1bc41bc.jpg": "/Reptile-Planet/static/media/tarantulas.d1bc41bc.jpg",
     "static/media/termometr.d5d7bafb.jpg": "/Reptile-Planet/static/media/termometr.d5d7bafb.jpg",
+    "static/media/terra.63fbd5a9.jpg": "/Reptile-Planet/static/media/terra.63fbd5a9.jpg",
     "static/media/terrarium30.c8aeefea.jpg": "/Reptile-Planet/static/media/terrarium30.c8aeefea.jpg",
     "static/media/terrarium60.c4d1d011.jpg": "/Reptile-Planet/static/media/terrarium60.c4d1d011.jpg",
     "static/media/terrarium90.6554386f.jpg": "/Reptile-Planet/static/media/terrarium90.6554386f.jpg",
@@ -86,6 +87,6 @@
     "static/js/runtime-main.5526a1c5.js",
     "static/css/2.b57b7cfd.chunk.css",
     "static/js/2.2075a5ba.chunk.js",
-    "static/js/main.bf3afdc3.chunk.js"
+    "static/js/main.d520d360.chunk.js"
   ]
 }
