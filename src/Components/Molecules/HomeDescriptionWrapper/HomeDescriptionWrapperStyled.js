@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   height: 300px;
-  width: 60%;
+  width: 70%;
   background-color: ${({ theme }) => theme.green};
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   font-weight: 500;
