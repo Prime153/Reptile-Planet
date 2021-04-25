@@ -146,8 +146,6 @@ export const DescriptionsContainer = styled.div`
   font-size: ${({ theme }) => theme.fontSize.s};
   text-align: center;
   width: 60%;
-  /* height: 40vh; */
-
   margin: auto;
 
   @media (max-width: 814px) {
