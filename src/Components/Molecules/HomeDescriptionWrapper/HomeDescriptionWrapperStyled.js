@@ -27,9 +27,11 @@ export const ContentContainer = styled.div`
   flex-basis: 50%;
   margin: 0 0 0 30px;
   padding: 20px;
+  margin: auto;
 
   @media screen and (max-width: 920px) {
     flex-basis: 60%;
+    padding: 5px 0;
   }
 
   ${({ second }) =>

@@ -22,11 +22,12 @@ Button.propTypes = {
   id: PropTypes.number.isRequired,
   type: PropTypes.string.isRequired,
   order: PropTypes.string,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 
 Button.defaultProps = {
   order: null,
+  children: null,
 };
 
 export default Button;

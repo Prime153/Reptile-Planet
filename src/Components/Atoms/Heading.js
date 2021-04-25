@@ -7,7 +7,7 @@ const Heading = styled.h2`
   margin: auto 0;
 
   @media screen and (max-width: 850px) {
-    margin: 10px 0;
+    margin: 1rem 0;
     font-size: 4rem;
   }
 `;
