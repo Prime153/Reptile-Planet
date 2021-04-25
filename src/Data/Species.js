@@ -200,7 +200,7 @@ export const lizards = [
   {
     id: 9,
     species: 'Smaug Giganteus',
-    name: 'Giant Dragon Lizard',
+    name: 'Sungazer',
     birth: 'CB2018',
     price: 5999,
     picture: Smaug,
@@ -477,6 +477,7 @@ export const tarantulas = [
   {
     id: 25,
     species: 'Xenesthis Immanis',
+    name: 'Colombian Lesserblack',
     birth: 'L2',
     price: 349,
     picture: Xenesthis,
@@ -615,6 +616,7 @@ export const scorpions = [
   {
     id: 33,
     species: 'Pandinus Cavimanus',
+    name: 'Tanzanian Red Clawed Scorpion',
     birth: 'L1',
     price: 59,
     picture: Cavimanus,
