@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
-  height: 300px;
+  height: 310px;
   width: 70%;
   background-color: ${({ theme }) => theme.green};
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
@@ -18,20 +18,19 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 740px) {
-    width: 80%;
+    width: 85%;
     font-size: ${({ theme }) => theme.fontSize.xxs};
   }
 `;
 
 export const ContentContainer = styled.div`
   flex-basis: 50%;
-  margin: 0 0 0 30px;
-  padding: 20px;
+  padding: 15px;
   margin: auto;
 
   @media screen and (max-width: 920px) {
     flex-basis: 60%;
-    padding: 5px 0;
+    padding: 0 5px;
   }
 
   ${({ second }) =>
