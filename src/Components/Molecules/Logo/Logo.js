@@ -1,7 +1,7 @@
 import React from 'react';
-import LogoImage from 'assets/Logo/Logo.png';
-import LogoImage2 from 'assets/Logo/Logo2.png';
-import LogoImage3 from 'assets/Logo/Logo3.png';
+import LogoImage from 'assets/Logo/Logo.webp';
+import LogoImage2 from 'assets/Logo/Logo2.webp';
+import LogoImage3 from 'assets/Logo/Logo3.webp';
 import BasketWrapper from 'Components/Molecules/BasketWrapper/BasketWrapper';
 import { Container } from './LogoStyled';
 

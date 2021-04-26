@@ -1,11 +1,11 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import Img1 from 'assets/Slider/img1.jpg';
-import Img2 from 'assets/Slider/img2.jpg';
-import Img3 from 'assets/Slider/img3.jpg';
-import Img4 from 'assets/Slider/img4.jpg';
-import Img5 from 'assets/Slider/img5.jpg';
+import Img1 from 'assets/Slider/img1.webp';
+import Img2 from 'assets/Slider/img2.webp';
+import Img3 from 'assets/Slider/img3.webp';
+import Img4 from 'assets/Slider/img4.webp';
+import Img5 from 'assets/Slider/img5.webp';
 
 import { Container, Image, SliderStyled } from './SliderStyled';
 

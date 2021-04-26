@@ -1,9 +1,9 @@
 import React from 'react';
 import Heading from 'Components/Atoms/Heading';
 import PropTypes from 'prop-types';
-import Img from 'assets/Wrapper/Wrapper.png';
-import Img2 from 'assets/Wrapper/Wrapper2.jpg';
-import Img3 from 'assets/Wrapper/Wrapper3.jpg';
+import Img from 'assets/Wrapper/Wrapper.webp';
+import Img2 from 'assets/Wrapper/Wrapper2.webp';
+import Img3 from 'assets/Wrapper/Wrapper3.webp';
 
 import {
   Container,

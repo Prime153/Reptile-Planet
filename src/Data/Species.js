@@ -1,61 +1,61 @@
 // Lizards
-import Accanthurus from 'assets/Lizards/accanthurus.jpg';
-import Phelsuma from 'assets/Lizards/phelsuma.jpg';
-import Macularius from 'assets/Lizards/macularius.jpg';
-import Ciliatus from 'assets/Lizards/ciliatus.jpg';
-import Auriculatus from 'assets/Lizards/auriculatus.jpg';
-import Chlamydosaurus from 'assets/Lizards/chlamydosaurus.jpg';
-import Omanosaura from 'assets/Lizards/omanosaura.jpg';
-import Calyptratus from 'assets/Lizards/calyptratus.jpg';
-import Smaug from 'assets/Lizards/smaug.jpg';
-import Tokay from 'assets/Lizards/tokay.jpg';
-import Leachianus from 'assets/Lizards/leachianus.jpg';
+import Accanthurus from 'assets/Lizards/accanthurus.webp';
+import Phelsuma from 'assets/Lizards/phelsuma.webp';
+import Macularius from 'assets/Lizards/macularius.webp';
+import Ciliatus from 'assets/Lizards/ciliatus.webp';
+import Auriculatus from 'assets/Lizards/auriculatus.webp';
+import Chlamydosaurus from 'assets/Lizards/chlamydosaurus.webp';
+import Omanosaura from 'assets/Lizards/omanosaura.webp';
+import Calyptratus from 'assets/Lizards/calyptratus.webp';
+import Smaug from 'assets/Lizards/smaug.webp';
+import Tokay from 'assets/Lizards/tokay.webp';
+import Leachianus from 'assets/Lizards/leachianus.webp';
 
 // Snakes
-import Spilota from 'assets/Snakes/spilota.jpg';
-import Regius from 'assets/Snakes/regius.jpg';
-import Nigrita from 'assets/Snakes/nigrita.jpg';
-import Constrictor from 'assets/Snakes/constrictor.jpg';
-import Virdis from 'assets/Snakes/virdis.jpg';
-import Eunectes from 'assets/Snakes/eunectes.jpg';
-import Triangulum from 'assets/Snakes/triangulum.jpg';
+import Spilota from 'assets/Snakes/spilota.webp';
+import Regius from 'assets/Snakes/regius.webp';
+import Nigrita from 'assets/Snakes/nigrita.webp';
+import Constrictor from 'assets/Snakes/constrictor.webp';
+import Virdis from 'assets/Snakes/virdis.webp';
+import Eunectes from 'assets/Snakes/eunectes.webp';
+import Triangulum from 'assets/Snakes/triangulum.webp';
 
 // Tarantulas
-import Blondi from 'assets/Tarantulas/blondi.jpg';
-import Chromatopelma from 'assets/Tarantulas/chromatopelma.jpg';
-import Auratum from 'assets/Tarantulas/auratum.jpg';
-import Caribena from 'assets/Tarantulas/caribena.jpg';
-import Irminia from 'assets/Tarantulas/irminia.jpg';
-import Seladonia from 'assets/Tarantulas/seladonia.jpg';
-import Xenesthis from 'assets/Tarantulas/xenesthis.jpg';
-import Hamorii from 'assets/Tarantulas/hamorii.jpg';
-import Chromatus from 'assets/Tarantulas/chromatus.jpg';
+import Blondi from 'assets/Tarantulas/blondi.webp';
+import Chromatopelma from 'assets/Tarantulas/chromatopelma.webp';
+import Auratum from 'assets/Tarantulas/auratum.webp';
+import Caribena from 'assets/Tarantulas/caribena.webp';
+import Irminia from 'assets/Tarantulas/irminia.webp';
+import Seladonia from 'assets/Tarantulas/seladonia.webp';
+import Xenesthis from 'assets/Tarantulas/xenesthis.webp';
+import Hamorii from 'assets/Tarantulas/hamorii.webp';
+import Chromatus from 'assets/Tarantulas/chromatus.webp';
 
 // Scorpions
-import Imperator from 'assets/Scorpions/imperator.jpg';
-import Petersii from 'assets/Scorpions/petersii.jpg';
-import Carpathicus from 'assets/Scorpions/carpathicus.jpg';
-import Liocheles from 'assets/Scorpions/liocheles.jpg';
-import Hadrurus from 'assets/Scorpions/hadrurus.jpg';
-import Cavimanus from 'assets/Scorpions/cavimanus.jpg';
+import Imperator from 'assets/Scorpions/imperator.webp';
+import Petersii from 'assets/Scorpions/petersii.webp';
+import Carpathicus from 'assets/Scorpions/carpathicus.webp';
+import Liocheles from 'assets/Scorpions/liocheles.webp';
+import Hadrurus from 'assets/Scorpions/hadrurus.webp';
+import Cavimanus from 'assets/Scorpions/cavimanus.webp';
 
 // accessories
-import Tweezers from 'assets/Accessories/tweezers.jpg';
-import Terrarium30 from 'assets/Accessories/terrarium30.jpg';
-import Cork from 'assets/Accessories/cork.jpg';
-import Termometr from 'assets/Accessories/termometr.jpg';
-import Terrarium60 from 'assets/Accessories/terrarium60.jpg';
-import Liane from 'assets/Accessories/liane.jpg';
-import Arcadia from 'assets/Accessories/arcadia.jpg';
-import Hideouts from 'assets/Accessories/hideouts.jpg';
-import Terrarium90 from 'assets/Accessories/terrarium90.jpg';
-import Multivitamin from 'assets/Accessories/multivitamin.jpg';
+import Tweezers from 'assets/Accessories/tweezers.webp';
+import Terrarium30 from 'assets/Accessories/terrarium30.webp';
+import Cork from 'assets/Accessories/cork.webp';
+import Termometr from 'assets/Accessories/termometr.webp';
+import Terrarium60 from 'assets/Accessories/terrarium60.webp';
+import Liane from 'assets/Accessories/liane.webp';
+import Arcadia from 'assets/Accessories/arcadia.webp';
+import Hideouts from 'assets/Accessories/hideouts.webp';
+import Terrarium90 from 'assets/Accessories/terrarium90.webp';
+import Multivitamin from 'assets/Accessories/multivitamin.webp';
 
 // articles
-import Scorpion from 'assets/articles/scorpion.jpg';
-import Insularis from 'assets/articles/insularis.jpg';
-import Iguana from 'assets/articles/iguana.jpg';
-import Terra from 'assets/articles/terra.jpg';
+import Scorpion from 'assets/articles/scorpion.webp';
+import Insularis from 'assets/articles/insularis.webp';
+import Iguana from 'assets/articles/iguana.webp';
+import Terra from 'assets/articles/terra.webp';
 
 import { description } from './SpeciesDescriptions';
 

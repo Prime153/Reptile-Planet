@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import CategoryWrapper from 'Components/Molecules/CategoryWrapper/CategoryWrapper';
-import Reptiles from 'assets/CategoryImages/reptiles.jpg';
-import Arachnids from 'assets/CategoryImages/arachnids.jpg';
-import Accessories from 'assets/CategoryImages/accessories.jpg';
+import Reptiles from 'assets/CategoryImages/reptiles.webp';
+import Arachnids from 'assets/CategoryImages/arachnids.webp';
+import Accessories from 'assets/CategoryImages/accessories.webp';
 
 const Container = styled.div`
   width: auto;

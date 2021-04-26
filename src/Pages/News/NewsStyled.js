@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Gecko from 'assets/newsGecko.png';
+import Gecko from 'assets/newsGecko.webp';
 
 export const Container = styled.div`
   background-image: url(${Gecko});

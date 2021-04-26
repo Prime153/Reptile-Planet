@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import CategoryWrapper from 'Components/Molecules/CategoryWrapper/CategoryWrapper';
 import PropTypes from 'prop-types';
 import UserPageTemplate from 'Templates/UserPageTemplate';
-import Lizards from 'assets/CategoryImages/lizards.jpg';
-import Snakes from 'assets/CategoryImages/snakes.jpg';
-import Tarantulas from 'assets/CategoryImages/tarantulas.jpg';
-import Scorpions from 'assets/CategoryImages/scorpions.jpg';
+import Lizards from 'assets/CategoryImages/lizards.webp';
+import Snakes from 'assets/CategoryImages/snakes.webp';
+import Tarantulas from 'assets/CategoryImages/tarantulas.webp';
+import Scorpions from 'assets/CategoryImages/scorpions.webp';
 
 const Container = styled.div`
   width: auto;

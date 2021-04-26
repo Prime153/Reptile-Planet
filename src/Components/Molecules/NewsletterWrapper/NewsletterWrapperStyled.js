@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Field } from 'formik';
-import Leaf from 'assets/leaf.png';
-import Leaf2 from 'assets/leaf2.png';
+import Leaf from 'assets/leaf.webp';
+import Leaf2 from 'assets/leaf2.webp';
 import Heading from 'Components/Atoms/Heading';
 
 export const Container = styled.div`

@@ -1,7 +1,7 @@
 import React from 'react';
-import FooterLogo from 'assets/FooterLogo/FooterLogo.png';
-import FooterLogo2 from 'assets/FooterLogo/FooterLogo2.png';
-import FooterLogo3 from 'assets/FooterLogo/FooterLogo3.png';
+import FooterLogo from 'assets/FooterLogo/FooterLogo.webp';
+import FooterLogo2 from 'assets/FooterLogo/FooterLogo2.webp';
+import FooterLogo3 from 'assets/FooterLogo/FooterLogo3.webp';
 import Heading from 'Components/Atoms/Heading';
 import {
   Container,
