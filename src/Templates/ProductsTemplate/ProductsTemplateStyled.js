@@ -59,6 +59,7 @@ export const SortBy = styled.select`
   font-size: ${({ theme }) => theme.fontSize.xxs};
   border: 2px solid ${({ theme }) => theme.green};
   height: 30px;
+  cursor: pointer;
 
   @media (max-width: 500px) {
     font-size: 12px;
@@ -85,6 +86,7 @@ export const LineButton = styled.button`
   background: url(${LineIcon}) no-repeat;
   background-size: cover;
   border: none;
+  cursor: pointer;
 
   ${({ active }) =>
     !active &&
@@ -100,6 +102,7 @@ export const BoxButton = styled.button`
   background-size: cover;
   margin-right: 10px;
   border: none;
+  cursor: pointer;
 
   ${({ active }) =>
     active &&
