@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Reptile-Planet/static/js/main.8024d1c8.chunk.js",
-    "main.js.map": "/Reptile-Planet/static/js/main.8024d1c8.chunk.js.map",
+    "main.js": "/Reptile-Planet/static/js/main.1d253906.chunk.js",
+    "main.js.map": "/Reptile-Planet/static/js/main.1d253906.chunk.js.map",
     "runtime-main.js": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js",
     "runtime-main.js.map": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/Reptile-Planet/static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.2075a5ba.chunk.js": "/Reptile-Planet/static/js/2.2075a5ba.chunk.js",
-    "static/js/2.2075a5ba.chunk.js.map": "/Reptile-Planet/static/js/2.2075a5ba.chunk.js.map",
+    "static/js/2.8357d5e3.chunk.js": "/Reptile-Planet/static/js/2.8357d5e3.chunk.js",
+    "static/js/2.8357d5e3.chunk.js.map": "/Reptile-Planet/static/js/2.8357d5e3.chunk.js.map",
     "index.html": "/Reptile-Planet/index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "/Reptile-Planet/static/css/2.b57b7cfd.chunk.css.map",
-    "static/js/2.2075a5ba.chunk.js.LICENSE.txt": "/Reptile-Planet/static/js/2.2075a5ba.chunk.js.LICENSE.txt",
+    "static/js/2.8357d5e3.chunk.js.LICENSE.txt": "/Reptile-Planet/static/js/2.8357d5e3.chunk.js.LICENSE.txt",
     "static/media/BoxesIcon.10b4f938.svg": "/Reptile-Planet/static/media/BoxesIcon.10b4f938.svg",
     "static/media/FooterLogo.e4a599b0.webp": "/Reptile-Planet/static/media/FooterLogo.e4a599b0.webp",
     "static/media/FooterLogo2.f4d89892.webp": "/Reptile-Planet/static/media/FooterLogo2.f4d89892.webp",
@@ -87,7 +87,7 @@
   "entrypoints": [
     "static/js/runtime-main.5526a1c5.js",
     "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.2075a5ba.chunk.js",
-    "static/js/main.8024d1c8.chunk.js"
+    "static/js/2.8357d5e3.chunk.js",
+    "static/js/main.1d253906.chunk.js"
   ]
 }
