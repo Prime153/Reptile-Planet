@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Heading from 'Components/Atoms/Heading';
 
 export const Container = styled.div`
-  width: 1180px;
+  width: 1300px;
   align-items: center;
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   color: ${({ theme }) => theme.darkGreen};
@@ -10,7 +10,7 @@ export const Container = styled.div`
   margin: auto;
   text-align: center;
 
-  @media screen and (max-width: 1186px) {
+  @media screen and (max-width: 1300px) {
     width: 90%;
   }
 

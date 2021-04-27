@@ -21,10 +21,10 @@ const Home = () => {
       <Slider />
       <Line />
       <WhyUsWrapper />
-      <HomeDescriptionWrapper />
       <Line />
       <OfferHomeWrapper />
       <Line />
+      <HomeDescriptionWrapper />
       <HomeDescriptionWrapper second />
       <Line />
     </UserPageTemplate>
