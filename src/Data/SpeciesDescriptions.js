@@ -208,7 +208,7 @@ export const description = {
     description:
       'Females of this genus grow up to ~ 4 cm DC on average, with outstretched legs to ~ 10 cm. Males are slightly smaller and more slender. Adults usually measure ~ 3 cm DC. The whole legs are covered with light hairs. A characteristic broad green line runs through the center of the carapace, while the rest of it is golden. The abdomen is black, decorated with a large orange to red ornament. It is also covered with a few small light hairs.',
     FeedingAndSupplementation:
-      'We give feed them with fruit flies, cricket brood and mealworm larvae.',
+      'We  feed them with fruit flies, cricket brood and mealworm larvae.',
     Housing:
       'Taking into account the size of the spider, a terrarium with dimensions of e.g. 25x25x35 cm will be appropriate. Of course, it can be bigger, it depends on us. The best substrate is coconut fiber, ~ 3.5 cm thick',
   },
