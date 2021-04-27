@@ -19,14 +19,15 @@ const Button = ({ order, id, type, children }) => {
 };
 
 Button.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.number,
   type: PropTypes.string.isRequired,
-  order: PropTypes.string,
+  order: PropTypes.bool,
   children: PropTypes.node,
 };
 
 Button.defaultProps = {
-  order: null,
+  id: null,
+  order: false,
   children: null,
 };
 

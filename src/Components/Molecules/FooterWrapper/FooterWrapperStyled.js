@@ -11,7 +11,7 @@ export const Container = styled.footer`
 `;
 
 export const InfoContainer = styled.div`
-  flex-basis: 60%;
+  flex-basis: 50%;
   display: grid;
   grid-template-rows: 0.5fr 0.5fr;
 

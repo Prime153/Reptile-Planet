@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useDispatch, connect } from 'react-redux';
 import { fetchWeather as fetchWeatherAction } from 'Actions/index';
 import PropTypes from 'prop-types';
+import { v4 as uuidv4 } from 'uuid';
 import {
   Container,
   StyledHeading,
@@ -15,6 +16,7 @@ const WeatherWrapper = ({ cityLocation, error }) => {
   const dispatch = useDispatch();
   const getWeather = (city) => dispatch(fetchWeatherAction(city));
   const [handleValue, changeValue] = useState(null);
+  const key = uuidv4();
 
   return (
     <Container>
@@ -38,11 +40,13 @@ const WeatherWrapper = ({ cityLocation, error }) => {
       <div>
         {cityLocation.map((elem) =>
           error ? (
-            <TempText red>Oops, not found</TempText>
+            <TempText red key={key}>
+              Oops, not found
+            </TempText>
           ) : (
             <>
               {elem.main.temp >= 5 ? (
-                <TempText>
+                <TempText key={key}>
                   {elem.name} looks to be ok!{' '}
                   <span>
                     {Math.floor(elem.main.temp)}
@@ -50,7 +54,7 @@ const WeatherWrapper = ({ cityLocation, error }) => {
                   </span>
                 </TempText>
               ) : (
-                <TempText red>
+                <TempText red key={key}>
                   {elem.name} Oh no, it looks that your order will be
                   shipped late
                   <span>

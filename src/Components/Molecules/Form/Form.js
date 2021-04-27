@@ -168,7 +168,7 @@ const Form = ({ basket, total }) => {
 
 Form.propTypes = {
   basket: PropTypes.instanceOf(Array).isRequired,
-  total: PropTypes.instanceOf(Array).isRequired,
+  total: PropTypes.number.isRequired,
 };
 
 const mapStateToProps = ({ basket, total }) => ({ basket, total });
