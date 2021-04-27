@@ -155,7 +155,7 @@ const rootReducer = (state = initialState, action) => {
       const random = [];
 
       // eslint-disable-next-line no-plusplus
-      for (let i = 0; i < 6; i++) {
+      for (let i = 0; i < 4; i++) {
         const min = 1;
         const max = 44;
         const draw = min + Math.floor(Math.random() * (max - min));

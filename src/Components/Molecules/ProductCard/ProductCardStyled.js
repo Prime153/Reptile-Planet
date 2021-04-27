@@ -4,7 +4,6 @@ export const Container = styled.div`
   font-family: ${({ theme }) => theme.fontFamily.Roboto};
   margin: 3rem 40rem;
   width: 60vw;
-
   display: flex;
   flex-flow: row nowrap;
   color: ${({ theme }) => theme.darkGreen};
@@ -112,8 +111,8 @@ export const BoxContainer = styled.div`
   ${({ home }) =>
     home &&
     css`
-      margin: 2rem;
-      width: 260px;
+      margin: 1rem;
+      width: 230px;
       height: 400px;
     `}
 

@@ -24,7 +24,7 @@ export const Container = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-  flex-basis: 50%;
+  flex-basis: 40%;
   padding: 15px;
   margin: auto;
 
