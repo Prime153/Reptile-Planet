@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Reptile-Planet/static/js/main.1d253906.chunk.js",
-    "main.js.map": "/Reptile-Planet/static/js/main.1d253906.chunk.js.map",
+    "main.js": "/Reptile-Planet/static/js/main.8bffdc1e.chunk.js",
+    "main.js.map": "/Reptile-Planet/static/js/main.8bffdc1e.chunk.js.map",
     "runtime-main.js": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js",
     "runtime-main.js.map": "/Reptile-Planet/static/js/runtime-main.5526a1c5.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/Reptile-Planet/static/css/2.b57b7cfd.chunk.css",
@@ -88,6 +88,6 @@
     "static/js/runtime-main.5526a1c5.js",
     "static/css/2.b57b7cfd.chunk.css",
     "static/js/2.8357d5e3.chunk.js",
-    "static/js/main.1d253906.chunk.js"
+    "static/js/main.8bffdc1e.chunk.js"
   ]
 }
