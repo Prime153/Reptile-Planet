@@ -26,7 +26,7 @@ const WeatherWrapper = ({ cityLocation, error }) => {
         For animal safety we reserve the right to send your pet due to
         the prevailing weather.
       </span>
-      <span>We ship from monday to wendsday </span>
+      <span>We ship from monday to wednesday </span>
       <span>Check the weather condition:</span>
       <div>
         <StyledInput
