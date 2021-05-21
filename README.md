@@ -3,3 +3,15 @@
 
 ###  By going to subpages, you may notice some page flickering, it's beacause of scroll to top function.
 [![Reptile planet](https://i.ibb.co/rGS8W4Z/reptile-planet.jpg "Reptile planet")](https://prime153.github.io/Reptile-Planet/#/ "Reptile planet")
+
+## Used technologies: 
+#### Main: 
+![](https://i.ibb.co/CzYQ5s5/react.png) ![](https://i.ibb.co/txcX857/router.png)![](https://i.ibb.co/LR9mLpz/redux.png)
+#### - Styled components
+#### - Formik
+#### - React Icons
+#### - OpenWeatherMap API
+
+
+
+
