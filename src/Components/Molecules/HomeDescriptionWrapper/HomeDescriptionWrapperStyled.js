@@ -36,6 +36,7 @@ export const ContentContainer = styled.div`
   ${({ second }) =>
     second &&
     css`
+      flex-basis: 50%;
       margin: 0 20px;
       text-align: center;
     `}
@@ -67,6 +68,7 @@ export const Image = styled.div`
       :nth-child(3) {
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
+       
 
         @media screen and (max-width: 920px) {
         display:none;  
